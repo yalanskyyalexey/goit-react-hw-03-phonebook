@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+  font-size: 36px;
+  color: #152335;
+  margin-top: 10px;
+}
+
+body {
+  background-image: url('./img/moroccan-flower-dark.png');
+  font-family: 'Montserrat', sans-serif;
+}
+
+.appWrapper {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}

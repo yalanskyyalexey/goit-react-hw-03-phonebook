@@ -1,0 +1,32 @@
+.list {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.items {
+  display: flex;
+
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.text {
+  margin: 10px;
+}
+.delete_btn {
+  max-width: 150px;
+  font-size: 14px;
+  background-color: tomato;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete_btn:hover {
+  background-color: #d36f5e;
+  box-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+}
